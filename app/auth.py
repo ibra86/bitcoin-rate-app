@@ -1,7 +1,6 @@
-from flask import url_for, request, flash
+from flask import request
 from flask_login import login_user
 from werkzeug.security import check_password_hash, generate_password_hash
-from werkzeug.utils import redirect
 
 from app import app
 from app.utils import get_user_from_storage, put_user_to_storage

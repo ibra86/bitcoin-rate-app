@@ -2,7 +2,7 @@ from flask import Flask
 from flask_login import LoginManager
 
 from .users import User
-from .utils import USERS_FILE, get_users_all
+from .utils import get_users_all
 
 app = Flask(__name__)
 app.secret_key = 'secret-key-to-be-later-changed'
