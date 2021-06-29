@@ -5,7 +5,7 @@ from dataclasses import asdict
 from app.users import User
 
 USERS_FILE = 'users.jsonl'
-
+API_PB = 'https://api.privatbank.ua/p24api/pubinfo?exchange&coursid=5'
 
 def get_users_all():
     users_all = {}
